@@ -1,0 +1,99 @@
+/* stylee.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(45deg, #ff5e62, #ff9966);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s;
+    border: 2px solid #f3f3f3;
+    border-top-width: 8px;
+}
+
+.container:hover {
+    background: rgba(255, 255, 255, 1);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ff5e62;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-wrapper {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #f9f9f9;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background: #ff5e62;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: #ff4a4e;
+}
+
+.result {
+    display: flex;
+    justify-content: space-around;
+}
+
+.output {
+    background: #ff5e62;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background 0.3s;
+    margin: 5px;
+    flex: 1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.output:hover {
+    background: #ff4a4e;
+}
+
+span {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #333;
+}
